@@ -401,26 +401,26 @@ body {
 
 
 /*-----------------------------------*\
-  #PRODUCTS
+  #PROJECTS
 \*-----------------------------------*/
 
-.products-card {
+.projects-card {
   padding: 8px;
   border: 1px solid var(--gunmetal);
   box-shadow: var(--shadow-5);
   transition: var(--transition-1);
 }
 
-.products-card:is(:hover, :focus-within) {
+.projects-card:is(:hover, :focus-within) {
   box-shadow: var(--shadow-3);
   transform: translateY(-8px);
 }
 
-.products-card .card-banner { position: relative; }
+.projects-card .card-banner { position: relative; }
 
-.products-card:is(:hover, :focus-within) .img-cover { transform: scale(1.1); }
+.projects-card:is(:hover, :focus-within) .img-cover { transform: scale(1.1); }
 
-.products-card .btn {
+.projects-card .btn {
   padding: 8px 16px;
   font-size: var(--label-md);
   position: absolute;
@@ -430,20 +430,20 @@ body {
   transition: var(--transition-2);
 }
 
-.products-card:is(:hover, :focus) .btn { top: 50%; }
+.projects-card:is(:hover, :focus) .btn { top: 50%; }
 
-.products-card .card-profile {
+.projects-card .card-profile {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-block-start: 12px;
 }
 
-.products-card .card-profile .img { border-radius: var(--radius-circle); }
+.projects-card .card-profile .img { border-radius: var(--radius-circle); }
 
-.products-card .card-title { margin-block: 12px; }
+.projects-card .card-title { margin-block: 12px; }
 
-.products-card .card-meta {
+.projects-card .card-meta {
   background-color: var(--prussian-blue);
   display: flex;
   justify-content: space-between;
@@ -451,14 +451,14 @@ body {
   border-radius: var(--radius-8);
 }
 
-.products-card .card-price {
+.projects-card .card-price {
   color: var(--white);
   display: flex;
   gap: 4px;
   font-weight: var(--fw-500);
 }
 
-.products-card .countdown {
+.projects-card .countdown {
   position: absolute;
   bottom: 12px;
   left: 50%;
@@ -474,12 +474,12 @@ body {
   gap: 4px;
 }
 
-.products-card .countdown ion-icon {
+.projects-card .countdown ion-icon {
   --ionicon-stroke-width: 50px;
   font-size: 2.2rem;
 }
 
-.products .btn-link {
+.projects .btn-link {
   margin-inline: auto;
   margin-block-start: 32px;
 }
@@ -866,10 +866,10 @@ body {
 
 
   /**
-   * PRODUCTS
+   * PROJECTS
    */
 
-  .products .btn-link { margin-block-start: 60px; }
+  .projects .btn-link { margin-block-start: 60px; }
 
 
 
@@ -1048,9 +1048,9 @@ body {
 
 
   /**
-   * PRODUCTS
+   * PROJECTS
    */
 
-  .products .grid-list { grid-template-columns: repeat(4, 1fr); }
+  .projects .grid-list { grid-template-columns: repeat(4, 1fr); }
 
 }
